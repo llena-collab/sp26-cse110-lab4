@@ -36,4 +36,13 @@
 * 15\) 
     - == (Loose Equality): Compares two values for equality after converting both values to a common type.
     - === (Strict Equality): Compares both the value and the data type. It does not perform type coercion. If the types are different, it immediately     returns false.
+* 16\) File -> part2-question16.js
+* 17\) The result of calling modifyArray([1, 2, 3], doSomething) is the array [2, 4, 6]. This occurs because the modifyArray function iterates through each element of the provided input array and passes it as an argument to the doSomething function, which acts as the callback. During the first iteration, the value 1 is multiplied by 2 to produce 2, followed by the second iteration where 2 is multiplied by 2 to produce 4, and finally the third iteration where 3 is multiplied by 2 to produce 6. Each of these resulting values is pushed into the newArr array before it is ultimately returned by the function.
+* 18\) File -> part2-question18.js
+* 19\) The output will be: 
+    - 1
+    - 4
+    - 3
+    - 2
+
 
